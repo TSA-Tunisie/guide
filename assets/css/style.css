@@ -14,10 +14,10 @@ body {
 
 
 header {
-  background-color: #333;
+  background-color: rgba(30, 58, 138, 0.50); /* bleu foncé avec 50% d'opacité */
   color: white;
-  padding: 10px;
-  text-align: center;
+  padding: 1rem;
+  backdrop-filter: blur(3px); /* optionnel : ajoute un flou élégant derrière */
 }
 
 footer {
