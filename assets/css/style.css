@@ -36,7 +36,7 @@ footer {
 }
   .carousel {
   display: flex;
-  animation: scroll 15s linear infinite;
+  animation: scroll 25s linear infinite;
 }
 
 .carousel img {
