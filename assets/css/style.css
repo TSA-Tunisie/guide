@@ -14,7 +14,7 @@ body {
 
 
 header {
-  background-color: rgba(30, 58, 138, 0.50); /* bleu foncé avec 50% d'opacité */
+  background-color: rgba(30, 58, 138, 0.85); /* bleu foncé avec 85% d'opacité */
   color: white;
   padding: 1rem;
   backdrop-filter: blur(3px); /* optionnel : ajoute un flou élégant derrière */
