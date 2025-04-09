@@ -1,0 +1,28 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  
+  /* Image de fond */
+  background-image: url('assets/fond.jpeg'); /* Assure-toi que l'image est dans le bon dossier */
+  background-size: cover; /* Couvre toute la page */
+  background-position: center center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Éviter que l'image se répète */
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
