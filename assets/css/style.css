@@ -4,7 +4,29 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
-  .carousel-container {
+ 
+  /* Image de fond */
+  background-image: url('assets/fond.jpeg'); /* Assure-toi que l'image est dans le bon dossier */
+  background-size: cover; /* Couvre toute la page */
+  background-position: center center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Éviter que l'image se répète */
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+ .carousel-container {
   overflow: hidden;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
@@ -31,24 +53,3 @@ body {
   }
 }
   
-  /* Image de fond */
-  background-image: url('assets/fond.jpeg'); /* Assure-toi que l'image est dans le bon dossier */
-  background-size: cover; /* Couvre toute la page */
-  background-position: center center; /* Centrer l'image */
-  background-repeat: no-repeat; /* Éviter que l'image se répète */
-}
-
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
