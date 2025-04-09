@@ -44,11 +44,27 @@ footer {
   border-radius: 10px;
 }
 
+/* 🎯 Responsive : réduire la taille sur petits écrans */
+@media (max-width: 768px) {
+  .carousel img {
+    width: 200px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel img {
+    width: 150px;
+    margin-right: 8px;
+  }
+}
+
+/* Animation */
 @keyframes scroll {
-  from {
+  0% {
     transform: translateX(-100%);
   }
-  to {
+  100% {
     transform: translateX(100%);
   }
 }
