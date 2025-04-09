@@ -13,11 +13,13 @@ body {
 }
 
 
-header {
-  background-color: rgba(30, 58, 138, 0.85); /* bleu foncé avec 85% d'opacité */
+ header {
+  background-color: rgba(0, 123, 255, 0.4); /* Bleu turquoise foncé avec transparence */
   color: white;
   padding: 1rem;
-  backdrop-filter: blur(3px); /* optionnel : ajoute un flou élégant derrière */
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(4px); /* Effet flou élégant */
 }
 
 footer {
