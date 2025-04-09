@@ -4,6 +4,32 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
+  .carousel-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 2rem;
+}
+  .carousel {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.carousel img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
   
   /* Image de fond */
   background-image: url('assets/fond.jpeg'); /* Assure-toi que l'image est dans le bon dossier */
