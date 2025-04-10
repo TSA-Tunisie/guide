@@ -5,17 +5,14 @@ body {
   font-size: 1rem;
   line-height: 1.7;
 
- 
   /* Image de fond */
   background-image: url('assets/fond.jpeg'); /* Assure-toi que l'image est dans le bon dossier */
   background-size: cover; /* Couvre toute la page */
   background-position: center center; /* Centrer l'image */
   background-repeat: no-repeat; /* Éviter que l'image se répète */
-  
 }
 
-
- header {
+header {
   background-color: rgba(0, 123, 255, 0.4); /* Bleu turquoise foncé avec transparence */
   color: white;
   padding: 1rem;
@@ -30,13 +27,15 @@ footer {
   padding: 10px;
   text-align: center;
 }
- .carousel-container {
+
+.carousel-container {
   overflow: hidden;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
   margin-top: 2rem;
 }
-  .carousel {
+
+.carousel {
   display: flex;
   animation: scroll 40s linear infinite;
 }
@@ -72,6 +71,7 @@ footer {
     transform: translateX(100%);
   }
 }
+
 .charts-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -88,5 +88,4 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: white;
 }
-
 
