@@ -1,9 +1,9 @@
 body {
   direction: rtl;
   text-align: right;
-  font-family: 'Amiri', serif; /* Police élégante pour l'arabe */
-  font-size: 18px;
-  line-height: 1.6;
+  font-family: 'Tajawal', 'Georgia', serif;
+  font-size: 1rem;
+  line-height: 1.7;
 
  
   /* Image de fond */
@@ -11,6 +11,7 @@ body {
   background-size: cover; /* Couvre toute la page */
   background-position: center center; /* Centrer l'image */
   background-repeat: no-repeat; /* Éviter que l'image se répète */
+  
 }
 
 
