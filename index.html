@@ -7,6 +7,50 @@
   <title>Guide - Théorie de l'esprit et Autisme</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
+    /* Pour que le texte en arabe soit bien à droite */
+body, p, h2, h1, nav ul {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Pour que le site s’adapte à toutes les tailles d’écran */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive pour les menus et le layout */
+nav ul {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .charts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #search {
+    width: 100%;
+  }
+}
+
     body {
       font-family: 'Georgia', serif;
       background-color: #f9f9f9;
