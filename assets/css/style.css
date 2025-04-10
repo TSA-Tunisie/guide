@@ -71,4 +71,21 @@ footer {
     transform: translateX(100%);
   }
 }
-  
+  .charts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.charts-grid iframe {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  width: 45%;
+  min-width: 300px;
+  height: 300px;
+}
+
