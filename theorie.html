@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
-    <title>Théorie de l'esprit</title>
-    <link rel="stylesheet" href="assets/css/style.css"> <!-- Lien vers ton fichier CSS -->
-    <link rel="icon" href="favicon.ico"> <!-- Si tu as un favicon -->
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body, p, h2, h1, nav ul {
+      direction: rtl;
+      text-align: right;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    body {
+      font-family: 'Tajawal', 'Amiri', serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-image: url('assets/fond.jpeg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      background-color: rgba(0, 123, 255, 0.4);
+      color: white;
+      padding: 1rem;
+      position: relative;
+      z-index: 2;
+      backdrop-filter: blur(4px);
+    }
 </head>
 <body>
     <header>
