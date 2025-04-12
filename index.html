@@ -12,7 +12,12 @@
   <!-- Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-      /* Style global pour le widget de traduction */
+     /* Masquer l'icône par défaut de Google Translate */
+        .goog-te-banner-frame {
+            display: none !important;
+        }
+
+        /* Style pour le bouton personnalisé de traduction */
         #google_translate_element {
             font-size: 0.8rem; /* Réduit la taille de l'élément */
             width: auto;
@@ -25,22 +30,25 @@
             display: inline-block;
         }
 
-        /* Style du menu déroulant du widget de traduction */
+        /* Style pour l'élément de traduction */
         .goog-te-combo {
-            width: 80px; /* Réduit la largeur du menu déroulant */
-            height: 25px; /* Réduit la hauteur du menu déroulant */
-            border: 1px solid #ccc;
-            padding: 5px;
-            font-size: 0.8rem; /* Réduit la taille de la police du texte */
-            border-radius: 5px;
-            background-color: #f8f8f8;
-            color: #333;
+            display: none !important; /* Cacher le sélecteur de langue par défaut */
         }
 
-        /* Style lors du survol du menu de traduction */
-        .goog-te-combo:hover {
-            background-color: #e8e8e8;
+        /* Style pour l'icône personnalisée */
+        .translate-icon {
             cursor: pointer;
+            font-size: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border-radius: 50%;
+            border: none;
+        }
+
+        /* Changer le style au survol */
+        .translate-icon:hover {
+            background-color: #0056b3;
         }
     body, p, h2, h1, nav ul {
       direction: rtl;
