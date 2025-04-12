@@ -194,7 +194,13 @@
     <input type="text" id="search" placeholder="البحث...">
     <div id="datetime" style="margin-top: 1rem; font-size: 1.1rem; font-weight: bold;"></div>
   </header>
-<script type="text/javascript">
+<!-- Bouton personnalisé pour traduction -->
+        <button class="translate-icon" onclick="googleTranslateElementInit()">🌐</button>
+    </header>
+
+    <!-- Le reste de ton contenu ici -->
+
+    <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({
           pageLanguage: 'ar',
@@ -205,6 +211,7 @@
     </script>
 
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
   <main>
     <section>
       <h2>مرحبا</h2>
