@@ -12,25 +12,26 @@
   <!-- Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-     /* Style global pour le widget de traduction */
+      /* Style global pour le widget de traduction */
         #google_translate_element {
+            font-size: 0.8rem; /* Réduit la taille de l'élément */
+            width: auto;
             margin: 10px 0;
-            padding: 10px;
+            padding: 5px;
             border-radius: 5px;
             background-color: rgba(255, 255, 255, 0.8); /* Fond blanc avec une transparence */
             border: 1px solid #ccc;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             display: inline-block;
-            font-size: 1rem;
         }
 
         /* Style du menu déroulant du widget de traduction */
         .goog-te-combo {
-            width: 150px;
-            height: 35px;
+            width: 80px; /* Réduit la largeur du menu déroulant */
+            height: 25px; /* Réduit la hauteur du menu déroulant */
             border: 1px solid #ccc;
             padding: 5px;
-            font-size: 1rem;
+            font-size: 0.8rem; /* Réduit la taille de la police du texte */
             border-radius: 5px;
             background-color: #f8f8f8;
             color: #333;
@@ -40,14 +41,6 @@
         .goog-te-combo:hover {
             background-color: #e8e8e8;
             cursor: pointer;
-        }
-
-        /* Si le widget est dans un header, ajustez la position et le padding */
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(0, 123, 255, 0.4); /* Vous pouvez personnaliser cette couleur */
-            color: white;
         }
     body, p, h2, h1, nav ul {
       direction: rtl;
