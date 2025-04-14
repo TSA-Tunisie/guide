@@ -1,1 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body, p, h2, h1, nav ul {
+      direction: rtl;
+      text-align: right;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    body {
+      font-family: 'Tajawal', 'Amiri', serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-image: url('assets/fond.jpeg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/fond.jpeg'); /* Remplace par le chemin de ton image */
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+
+    header {
+      background-color: rgba(0, 123, 255, 0.4);
+      color: white;
+      padding: 1rem;
+      position: relative;
+      z-index: 2;
+      backdrop-filter: blur(4px);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    #search {
+      margin-top: 1rem;
+      width: 100%;
+      max-width: 400px;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #1e3a8a;
+    }
+
+    .carousel-container {
+      overflow-x: auto;
+    }
+
+    .carousel {
+      display: flex;
+      gap: 1rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      margin-bottom: 1rem;
+    }
+
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media (min-width: 600px) {
+      .charts-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    footer {
+      background-color: #e5e7eb;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">الاستقبال</a></li>
+                    
+               
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>نظرية العقل</h1>
+            <p>المراجع </p>
+              <p>  1.	أحلام بلحاج وآخرون، دليل المربي نحو دمج الأطفال ذوي طيف التوحد في مؤسسات الطفولة المبكرة، تونس، 2023.</p>
+  <p>2.	أحمد عكاشة، الطب النفسي المعاصر، مكتبة الأنجلو المصرية، القاهرة، 1980</p>
+  <p>3.	أحمد محمد أحمد محمد حسين، معوقات الدمج الشامل لأطفال التوحد بمدارس التعليم العام من وجهة نظر المعلمين، كلية التربية، جامعة حلوث، 2021</p>
+  <p>4.	أحمد مختار عبد الحميد عمر، معجم اللّغة العربيّة المعاصر، عالم الكتب، 2008</p>
+  <p>5.	أسامة فاروق مصطفى، السيد كمال الشربيني، التوحّد: الأسباب-التشخيص-العلاج، دار المسيرة للنشر، 2014ر</p>
+  <p>6.	أسماء محمد السيد لطفي، اضطراب قصور الانتباه وفرط الحركة وعلاقته بالكفاءة الذاتية والمهارات الاجتماعية لدى طلبة الجامعة، مجلة الإرشاد النفسي، العدد 70، الجزء 2، 2022.</p>
+  <p>7.	أنور محمد الشرقاوي، استبيان العوامل المرتبطة بصعوبات التعلم في المدرسة الابتدائية، مكتبة الانجلو المصرية، القاهرة، 1999.',</p>
+  <p>8.	إبراهيم عبد الله فرج الزهراني، منهج التربية الخاصة وأساليب التدريس لذوي الاحتياجات الخاصة، دار الفكر، 2005.</p>
+  <p>9.	إيما روبرتسون، السويد: بلد خارج عن المألوف، تانيا حداد، السويد، المعهد السويدي</p>
+  <p>10.	الأمم المتحدة، اتفاقيّة الأمم المتحدة لحقوق الطّفل، الأمم المتحدة، 1989، المادة 1</p>
+  <p>11.	الأمم المتحدة، الأسكوا واليونسكو ومركز الملك سلمان للإغاثة والأعمال الخيرية وازدهار البلدان كرامة الإنسان، التعليم الدامج: مفاهيمه وأسس تطبيقه، الوحدة الأولى، 2022</p>
+  <p>12.	الجارحي سيد محمد، استخدام القصة الاجتماعية كمدخل للتغلب على القصور في مفاهيم نظرية العقل لدى الأطفال التوحديين، المؤتمر العلمي الأول لقسم الصحة النفسية (التربية الخاصة بين الواقع والمأمول)، كلية التربية الجامعة بنها، المجلد الثالث، 2007</p>
+  <p>13.	الدمج المدرسي ودوره في تحقيق الاحتواء التعليمي والتكفل النفسي والاجتماعي لأطفال طيف التوحد، جامعة وهران، دراسات إنسانية واجتماعية، المجلد 13، جامعة وهران02، وهران، 2024.</p>
+  <p>14.	الشامي وفاء علي، خفايا التوحّد، الجمعية الخيرية النسوية، مركز جدة للتوحد، 2004</p>
+  <p>15.	 العبادي رائد خليل، التوحّد، مكتبة المجتمع العربي للنشر والتوزيع، الأردن، 2006</p>
+  <p>16.	بولين بروجين وهويب كورنيلي ونيالا مهراج وباربرا ريجير وساسكيا فان فين ورولي ولتينج، دمج الأشخاص ذوي الإعاقة في مشاريع التنمية: دليل عملي للمنظمات في الشمال والجنوب، ليّ مكان، مطبعة نور العالم، 2012.'</p>
+  <p>17.	بيكات وتوشمان وآخرون، معدل الوفيات لدى الأفراد المصابين بالتوحد المصابين بالصرع وغير المصابين به، 2011.</p>
+  <p>18.	ثابت عبد الرؤوف، مفهوم الطب النفسي، مطابع الأهرام بكورنيش النيل، مصر.</p>
+  <p>19.	جمال عطيّة فايد، سيكولوجيّة الأطفال ذوي الاحتياجات الخاصّة والمتعدّدة، دار الجامعة الجديدة، غير مؤرّخ</p>
+  <p>20.	حسام إبراهيم مراد، متطلبات تطوير نظام دمج ذوي الاحتياجات الخاصة في المدارس العادية الحكومية 'رؤية مقترحة'، مجلة كلية التربية، العدد 73</p>
+  <p>21.	حمد الله، منذر إبراهيم أحمد وراشد، أنور أحمد عيسى محمد، المشكلات المهنية لدى معلمي الطلبة ذوي اضطراب طيف التوحد: دراسة ميدانية مقارنة بين عمان والرياض. مجلة المعهد الدولي للدراسة والبحث، 2015 </p>
+  <p>22.	حمودي أسماء دقيش رحمة، النظريات المفسرة لاضطراب التقمص لدى الحالات التي تعاني من التوحد، مجلة وحدة البحث في تنمية الموارد البشرية، المجلد 9 العدد 2 خاص (الجزء الأول)، جويلية، 2018.ر</p>
+  <p>23.	حناش فضيلة ومحمّد بن زكريا، التوجيه والإرشاد المدرسي والمهني من منظور إصلاحات التربية الجديدة، وزارة التربية الوطنيّة الجزائريّة، 2011.</p>
+  <p>24.	خطاب محمد أحمد، سيكولوجية الطفل التوحدي، دار الثقافة للنشر والتوزيع، الأردن، 2009.</p>
+  <p>25.	دعاء عبد القادر عبد المولي وزينب رجب البانة وسمية أشرف محمد محمد، الاتجاهات الحديثة في دمج الأطفال ذوي القدرات الخاصة بمرحلة الطفولة المبكرة، مجلة البحوث العلمية في الطفولة، المجلد 1 العدد 2، 2020.</p>
+  <p>26.	ديكارت، حديث الطريق، بيروت: مركز الدراسات العربية، 2008.</p>
+
+  <p>27.	رايت، جيسيكا، 'العلاقة بين الصرع والتوحد.' Spectrum News، 21 أكتوبر 2019. ترجمة مركز التميز للتوحد، 18 فبراير 2022."</p>
+  <p>28.	زهراء داوود، 'التوحد والصرع: اضطراب ومرض في آنٍ واحد'. مجلة الطبي، العدد 118، أكتوبر 2022</p>
+  <p>29.	سالم خديجة، خصائص المعلم ودوره في العملية التعليمية، مجلة الفكر المتوسطي، 2022 </p>
+  <p>30.	طارق عبد الرؤوف محمد عامر، دمج ذوي الاحتياجات الخاصة في ضوء التوجهات العالمية المعاصرة، دار اليازوري العلمية للنشر والتوزيع، الأردن، 2019</p>
+  <p>31.	طارق عبد الرؤوف وربيع عبد الرؤوف، رعاية ذوي الاحتياجات الخاصة للمعاقين ذهنياً، الدار العالمية للنشر والتوزيع، القاهرة، 2006</p>
+  <p>32.	عبد الرقيب أحمد البحيري ومحمود محمد إمام، اضطراب طيف التوحد: الدليل التطبيقي للتشخيص والتدخل العلاجي، مكتبة الأنجلو المصرية، 2018</p>
+  <p>33.	عبد الغني أبو العزم، معجم الغني، المكتبة الشاملة: 3073</p>
+  <p>34.	عبد الله محمد قاسم، الطّفل التوحّدي أو الذواتي، دار الفكر للطباعة والنشر، الأردن، 2001.</p>
+  <p>35.	عسيلة كوثر حسن، التوحّد، دار صفاء للنشر والتوزيع، الأردن، 2006.</p>
+  <p>36.	عوض عباس، علم النفس الفيزيولوجي، دار المعرفة الجامعية، مصر، 1989.</p>
+  <p>37.	كوافحة تيسير مفلح، صعوبات التعلم والخطة العلاجية المقترحة، دار المسيرة للنشر والتوزيع ط4، عمان، 2011</p>
+  <p>38.	لامية حمزة، الإدماج في الوثائق التربوية وتمثلاته في كتابات التلميذ، السنة الثانية من التعليم الثانوي شعبة آداب ولغات أنموذجا، مجلة الباحث في العلوم الإنسانية والاجتماعية، 2022</p>
+  <p>39.	ماجدة عبيد، مناهج وأساليب تدريس ذوي الاحتياجات الخاصة، دار الصفاء، عمان، 2001</p>
+  <p>40.	مارتين هنبري، اضطراب طيف التوحد، محمد اسماعيل ابو شعيرة وآخرون، كلية المجتمع بالرياض، السعودية، 2010.</p>
+  <p>41.	محمد ابن أبي بكر ابن عبد القادر الرازي، مختار الصحاح، المطبعة الكلية، مصر، 1951</p>
+  <p>42.	محمد عبد اللطيف، مطلب: الفلسفة والفيزياء، جزء 1، دائرة الشؤون الثقافية والنشر، بغداد، 1970</p>
+  <p>43.	محمد، عادل، مدخل إلى اضطراب التوحد والاضطرابات السلوكية والانفعالية، دار الرشاد، مصر، 2011</p>
+  <p>44.	محمود صلاح الدين عرفة، تعليم وتعلم مهارات التدريس في عصر المعلومات، عالم الكتب، القاهرة، 2011</p>
+  <p>45.	محمود محمد إبراهيم، البنية العالمية للمقياس العربي للوسواس القهري لدى طلبة جامعة السلطان قابوس، مجلة العلوم التربوية، عمان، 2015</p>
+  <p>46.	محمّد القرطبي، تفسير القرطبي، دار الكتاب المصريّة، غير مؤرّخ</p>
+  <p>47.	مصطفى نوري القمش، اضطرابات التوحد، دار المسيرة، عمان، 2011.', 'مصطفى نوري القمش، خليل عبد الرّحمان المعايطة، سيكولوجيّة الأطفال ذوي الاحتياجات الخاصّة: مقدّمة في التربية الخاصّة، دار المسيرة للنّشر، 2007</p>
+  <p>48.	معن التنجي، قياس الأثر الاجتماعي، الخلاصة البصريّة</p>
+  <p>49.	منظمة الصحة العالمية، اضطرابات طيف التوحد، صحائف الحقائق، WHO-EM/MNH/125/A، 2020.', 'منظمة الصحّة العالميّة، اضطراب طيف التوحد، منظمة الصحّة العالميّة، 2020</p>
+  <p>50.	منية القالي، التوحّد: الدليل الإرشادي للأسرة، عالم الإعاقة، مؤسسة العالم للصحافة والطباعة والنشر والتوزيع، المملكة العربية السعودية، 2021.</p>
+  <p>51.	نبيل السيد حسن ووفاء رشاد راوي، اللّعب التظاهري وعلاقته بالنموّ المبكّر للتفكير التجريدي لدى طفل الرّوضة، مجلة التربية وثقافة الطفل، 2015</p>
+  <p>52.	نهى بوختاش، تصميم برنامج علاجي قائم على مفاهيم نظرية العقل لتنمية المستوى البراغماتي لدى الطفل التوحدي، قسم علم النفس وعلوم التربية والأرطوفونيا، الجزائر، 2024.</p>
+  <p>53.	هبة عبد المجيد محمّد، معجم مصطلحات التربية وعلم النفس، ط1، وهران، 2008، دار البداية، ص 45</p>
+  <p>54.	واقع أدوار معلم التعليم العام في المملكة العربية السعودية في ضوء الدورات التدريبية المقدمة (دراسة ميدانية)، مجلة كلية التربية، جامعة الأزهر، يناير لسنة 2015م، الجزء الأول</p>
+  <p>55.	وردة يحياوي، نظرية العقل Theory of Mind، مجلة طنبة للدراسات العلمية الأكاديمية، المجلد عدد 04، العدد 02 عدد خاص، 2021 </p>
+  <p>56.	وزارة الأسرة والمرأة والطفولة وكبار السنّ بالتنسيق مع منظمة اليونيسف والجمعية التونسية للطب النفسي للأطفال والمراهقين، دليل المربي: نحو دمج الأطفال ذوي طيف التوحد في مؤسسات الطفولة المبكرة، تونس، 2023 </p>
+  <p>57.	ياسين محمد أحمد محمد، التدريب على مهام نظرية العقل وأثره في تنمية التواصل اللفظي لدى أطفال الروضة، مجلة العلوم التربوية، كلية التربية، الغردقة: مصر، 2021.</p>
+
+
+
+
+
+
+
+
+
+
+
+  <p>المراجع الأجنبيّة:</p>
+  <p>1.	Adamson, L. B., Bakeman, R., & Deckner, D. F. (2004). The development of symbol-infused joint engagement. Child Development, 75(4), 1171–1187.</p>
+  <p>2.	American Psychiatric Association. (2013). Diagnostic and Statistical Manual of Mental Disorders (DSM-5). Washington, DC: APA Publishing.</p>
+  <p>3.	Baranek, G. T., Foster, L. G., & Berkson, G. (1997). Tactile defensiveness and stereotyped behaviors. American Journal of Occupational Therapy, 51(2), 91–95.</p>
+  <p>4.	Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). Does the autistic child have a “theory of mind”? Cognition, 21(1), 37–46.</p>
+  <p>5.	Baron-Cohen, S. (2001). Theory of mind in normal development and autism. International Review of Research in Mental Retardation, 23, 174–183.</p>
+  <p>6.	Booth, T., & Potts, P. (1983). Integration: Special Education. Routledge, Oxford.</p>
+  <p>7.	Bradmetz, J. (1999). La théorie de l'esprit dans la psychologie de l'enfant de 2 à 7 ans. Presses Universitaires Franc-Comtoises.</p>
+  <p>8.	Calvez, M. (2018). L’école inclusive : des objectifs communs et des modalités différentes en Europe. Centre de Ressources Autisme, Université Rennes 2, Bretagne.</p>
+  <p>9.	Campbell, M., Geller, B., & Small, A. M. (1978). Minor physical anomalies in young psychotic children. Journal of Autism and Childhood Schizophrenia, 8(1), 49–64.</p>
+  <p>10.	Carruthers, P. (1996). Theories of Theories of Mind. Cambridge University Press.</p>
+  <p>11.	Castelli, F., Frith, C., Happé, F., & Frith, U. (2002). Autism, Asperger syndrome and brain mechanisms for the attribution of mental states to animated shapes. Brain, 125(8), 1839–1849.</p>
+  <p>12.	Ciesielski, K. T., & Harris, R. J. (1997). Factors related to performance failure on executive tasks in autism. Child Neuropsychology, 3(1), 1–12.</p>
+  <p>13.	Cornish, K., & McManus, I. C. (1996). Hand preference and hand skill in children with autism. Journal of Autism and Developmental Disorders, 26(5), 597–609.</p>
+  <p>14.	Doherty, M. (2008). Theory of mind: How children understand others' thoughts and feelings. Psychology Press.</p>
+  <p>15.	Dawson, G., Osterling, J., Meltzoff, A., & Kuhl, P. (2000). Case study of development of an infant with autism from birth to 2 years of age. Journal of Applied Developmental Psychology, 21(3), 299–313.</p>
+  <p>16.	Dodd, S. (2005). Understanding Autism. New York: Elsevier.</p>
+  <p>17.	Frith, U. (1989). Autism: Explaining the Enigma. Oxford: Basil Blackwell.</p>
+  <p>18.	Gallese, V., & Goldman, A. (1998). Mirror neurons and the simulation theory of mind-reading. Trends in Cognitive Sciences, 2(12), 493–501.</p>
+  <p>19.	Ghaziuddin, M., Butler, E., & Tsai, L. (1994). Is clumsiness a marker for Asperger syndrome? Journal of Intellectual Disability Research, 38(5), 519–527.</p>
+  <p>20.	Happé, F., & Frith, U. (1996). The neuropsychology of autism. Brain, 119(6), 1377–1400.</p>
+  <p>21.	Harwood, M. D., & Farrar, M. J. (2006). Conflicting emotions: The connection between affective perspective taking and theory of mind. British Journal of Developmental Psychology, 24(2), 401–418.</p>
+  <p>22.	Kabot, S., Masi, W., & Segal, M. (2003). Advances in the diagnosis and treatment of autism spectrum disorders. Professional Psychology: Research and Practice, 34(1), 26–33.</p>
+  <p>23.	Koegel, R. L., Frea, W. D., & Smith, A. E. (1995). Teaching children with autism: Strategies for initiating positive interactions and improving learning opportunities. Focus on Autism and Other Developmental Disabilities, 10(1), 1–19.</p>
+  <p>24.	Krause, L., Enticott, P. G., Zangen, A., & Fitzgerald, P. B. (2012). The role of medial prefrontal cortex in theory of mind: a deep rTMS study. Behavioural Brain Research, 228(1).</p>
+  <p>25.	Leyfer, O. T., Folstein, S. E., Bacalman, S., Davis, N. O., Dinh, E., Morgan, J., ... & Lainhart, J. E. (2006). Comorbid psychiatric disorders in children with autism: Interview development and rates of disorders. Journal of Autism and Developmental Disorders, 36(7), 849–861.</p>
+  <p>26.	Lewis, V. (1987). Development and Handicap. Basil Blackwell.</p>
+  <p>27.	Lillard, A. S. (1993). Pretend play skills and the child's theory of mind. Child Development, 64(2), 348–371.</p>
+  <p>28.	Norton, J., & Drew, C. (1994). Autism and potential family stressors. The American Journal of Family Therapy, 22(1), 67–76.</p>
+  <p>29.	Pierce, K., Glad, K., & Schreibman, L. (1997). Social perception in children with autism: An attentional deficit? Journal of Autism and Developmental Disorders, 27(3), 265–282.</p>
+  <p>30.	Rutter, M. (2005). Aetiology of autism: Findings and questions. Journal of Intellectual Disability Research, 49(4), 231–238.</p>
+  <p>31.	Swedish National Board of Education. (1986). Special Education in Sweden. National Board of Education Series, Cronstryckeriet, Stockholm.</p>
+  <p>32.	Taylor, M. (1988). Conceptual perspective taking: Children’s ability to distinguish what they know from what they see. Child Development, 59(3), 703–718.</p>
+  <p>33.	Trepagnier, C. (1996). A possible origin for the social and communicative deficits of autism. Developmental Disabilities Bulletin, 24(2), 5–18.</p>
+  <p>34.	Winters, K. (1993). The Regular Education Initiative: A Collaboration Between Regular Education and Special Education. University of Northern Iowa, UNI ScholarWorks.</p>
+
+
+
+
+<p>المراجع الالكترونية:</p>
+  <p>1.	فرفارو، ه. (2020، 6 فبراير). مشاكل النوم واضطراب طيف التوحد. Spectrum News. ترجمة مركز التميّز للتوحّد، 27 أغسطس 2020. https://bit.ly/2AqCGaO</p>
+  <p>2.	Spectrum News. (n.d.). The link between epilepsy and autism explained. https://www.spectrumnews.org/news/the-link-between-epilepsy-and-autism-explained/</p>
+  <p>3.	Ferguson, S. (2023, February 15). Understanding the relationship between autism and depression. Healthline. https://www.healthline.com</p>
+  <p>4.	فرفارو، ه. (2018، 25 يوليو). الاضطرابات المصاحبة لاضطراب طيف التوحد. Spectrum. https://www.spectrumnews.org4 Burch, K. (2024, July 19). OCD vs. ADHD: How They Compare. Verywell Mind. https://www.verywellmind.com/
+
+ </p>
+
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025- Ameni Ammar - Guide éducatif sur la théorie de l'esprit</p>
+        </div>
+    </footer>
+</body>
+</html>
 
