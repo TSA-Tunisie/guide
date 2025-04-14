@@ -150,6 +150,22 @@
       padding: 1rem;
       margin-top: 2rem;
     }
+          iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      border-radius: 12px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
   </style>
 </head>
 <body>
@@ -172,9 +188,10 @@
 
     <main>
     
-    <section>
+    
+        <div class="form-container">
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzwAQGLHmPDcdL7IwOkGlN5LwTcbQgM-qp5kt6XjfAzObnWA/viewform?embedded=true" height="520">Loading…</iframe>
-    </section>
+        </div>
     </main>
 
     <footer>
