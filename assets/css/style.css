@@ -88,4 +88,20 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: white;
 }
+.activity-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+}
+
+.activity-link:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
 
