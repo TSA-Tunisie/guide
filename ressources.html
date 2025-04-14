@@ -31,7 +31,13 @@
       background-color: #f9f9f9;
       color: #333;
       margin: 0;
-      padding: 0;       
+      padding: 0;
+      background-image: url('assets/fond.jpeg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -43,8 +49,8 @@
   background-position: center;
   filter: blur(8px);
   z-index: -1;
-        background-repeat: no-repeat;}
-    
+}
+
 
     header {
       background-color: rgba(0, 123, 255, 0.4);
